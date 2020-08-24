@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstract\Customer\" />
+    <Folder Include="EntityFramework\Customer\" />
+    <Folder Include="RequestModel\Customer\" />
+    <Folder Include="ResponseModel\Customer\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerceApp.DataAccess\ECommerceApp.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
